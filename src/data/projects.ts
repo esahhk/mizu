@@ -20,6 +20,22 @@ export interface Project {
 }
 
 export const projectsData: Project[] = [
+		{
+		id: "esahhk",
+		title: "esahhk",
+		description:
+			"web for esahhk.",
+		image: "/assets/projects/mizuki.webp",
+		category: "web",
+		techStack: ["Astro", "TypeScript", "Tailwind CSS", "Svelte"],
+		status: "completed",
+		sourceCode: "https://github.com/LyraVoid/Mizuki",
+		visitUrl: "https://esahhk.xyz",
+		startDate: "2024-01-01",
+		endDate: "2024-06-01",
+		featured: true,
+		tags: ["Blog", "Theme", "Open Source"],
+	},
 	{
 		id: "mizuki",
 		title: "Mizuki",
